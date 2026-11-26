@@ -221,3 +221,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Secrets & credentials
+.env.*
+*.pem
+*.key
+kaggle.json
+
+# OS & temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Raw dataset images & downloaded archives (reproducible via scripts/download_dataset.py)
+data/raw/
+data/tmp/
+*.zip
+*.h5
+*.pth
+

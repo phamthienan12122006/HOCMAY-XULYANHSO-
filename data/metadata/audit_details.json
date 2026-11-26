@@ -1,0 +1,183 @@
+{
+  "total_discovered_files": 8260,
+  "total_manifest_rows": 8260,
+  "total_valid_images": 8260,
+  "total_corrupted_images": 0,
+  "corrupted_files": [],
+  "unlabeled_or_unexpected_files": [],
+  "missing_from_source_index": [],
+  "non_standard_filenames": [],
+  "exact_sha256_duplicate_groups": 0,
+  "exact_sha256_duplicates": {},
+  "exact_pixel_duplicate_groups": 0,
+  "exact_pixel_duplicates": {},
+  "pixel_same_but_file_diff_groups": 0,
+  "color_modes": {
+    "L": 8260
+  },
+  "resolutions": {
+    "224x224": 8260
+  },
+  "image_formats": {
+    "PNG": 8260
+  },
+  "low_contrast_warnings_count": 115,
+  "low_contrast_warnings_sample": [
+    {
+      "image_id": "9019287L",
+      "relative_path": "data/raw/KL_0/9019287L.png",
+      "kl_grade": 0,
+      "mean_intensity": 134.63,
+      "std_intensity": 10.77
+    },
+    {
+      "image_id": "9048979R",
+      "relative_path": "data/raw/KL_0/9048979R.png",
+      "kl_grade": 0,
+      "mean_intensity": 52.41,
+      "std_intensity": 8.57
+    },
+    {
+      "image_id": "9102958L",
+      "relative_path": "data/raw/KL_0/9102958L.png",
+      "kl_grade": 0,
+      "mean_intensity": 50.64,
+      "std_intensity": 12.2
+    },
+    {
+      "image_id": "9102958R",
+      "relative_path": "data/raw/KL_0/9102958R.png",
+      "kl_grade": 0,
+      "mean_intensity": 52.47,
+      "std_intensity": 11.13
+    },
+    {
+      "image_id": "9116534R",
+      "relative_path": "data/raw/KL_0/9116534R.png",
+      "kl_grade": 0,
+      "mean_intensity": 50.04,
+      "std_intensity": 10.01
+    },
+    {
+      "image_id": "9132486L",
+      "relative_path": "data/raw/KL_0/9132486L.png",
+      "kl_grade": 0,
+      "mean_intensity": 52.32,
+      "std_intensity": 10.84
+    },
+    {
+      "image_id": "9132486R",
+      "relative_path": "data/raw/KL_0/9132486R.png",
+      "kl_grade": 0,
+      "mean_intensity": 55.11,
+      "std_intensity": 8.64
+    },
+    {
+      "image_id": "9140556L",
+      "relative_path": "data/raw/KL_0/9140556L.png",
+      "kl_grade": 0,
+      "mean_intensity": 70.44,
+      "std_intensity": 12.55
+    },
+    {
+      "image_id": "9140556R",
+      "relative_path": "data/raw/KL_0/9140556R.png",
+      "kl_grade": 0,
+      "mean_intensity": 74.4,
+      "std_intensity": 10.47
+    },
+    {
+      "image_id": "9170536L",
+      "relative_path": "data/raw/KL_0/9170536L.png",
+      "kl_grade": 0,
+      "mean_intensity": 54.53,
+      "std_intensity": 11.15
+    },
+    {
+      "image_id": "9170536R",
+      "relative_path": "data/raw/KL_0/9170536R.png",
+      "kl_grade": 0,
+      "mean_intensity": 57.17,
+      "std_intensity": 9.38
+    },
+    {
+      "image_id": "9200957L",
+      "relative_path": "data/raw/KL_0/9200957L.png",
+      "kl_grade": 0,
+      "mean_intensity": 92.97,
+      "std_intensity": 13.09
+    },
+    {
+      "image_id": "9328093R",
+      "relative_path": "data/raw/KL_0/9328093R.png",
+      "kl_grade": 0,
+      "mean_intensity": 114.43,
+      "std_intensity": 14.79
+    },
+    {
+      "image_id": "9386991R",
+      "relative_path": "data/raw/KL_0/9386991R.png",
+      "kl_grade": 0,
+      "mean_intensity": 72.8,
+      "std_intensity": 8.45
+    },
+    {
+      "image_id": "9423086L",
+      "relative_path": "data/raw/KL_0/9423086L.png",
+      "kl_grade": 0,
+      "mean_intensity": 75.45,
+      "std_intensity": 14.81
+    },
+    {
+      "image_id": "9434318L",
+      "relative_path": "data/raw/KL_0/9434318L.png",
+      "kl_grade": 0,
+      "mean_intensity": 52.12,
+      "std_intensity": 12.26
+    },
+    {
+      "image_id": "9434318R",
+      "relative_path": "data/raw/KL_0/9434318R.png",
+      "kl_grade": 0,
+      "mean_intensity": 54.02,
+      "std_intensity": 11.07
+    },
+    {
+      "image_id": "9440005L",
+      "relative_path": "data/raw/KL_0/9440005L.png",
+      "kl_grade": 0,
+      "mean_intensity": 72.46,
+      "std_intensity": 13.68
+    },
+    {
+      "image_id": "9456266R",
+      "relative_path": "data/raw/KL_0/9456266R.png",
+      "kl_grade": 0,
+      "mean_intensity": 49.99,
+      "std_intensity": 14.63
+    },
+    {
+      "image_id": "9470267R",
+      "relative_path": "data/raw/KL_0/9470267R.png",
+      "kl_grade": 0,
+      "mean_intensity": 87.45,
+      "std_intensity": 14.97
+    }
+  ],
+  "split_strategy": "official_mendeley_patient_grouped_split",
+  "random_seed_policy": 42,
+  "patient_overlap_counts": {
+    "train_vs_validation": 0,
+    "train_vs_test": 0,
+    "validation_vs_test": 0
+  },
+  "unique_patients_total": 4130,
+  "unique_patients_by_split": {
+    "test": 828,
+    "train": 2889,
+    "validation": 413
+  },
+  "knees_per_patient_distribution": {
+    "2": 4130
+  }
+}

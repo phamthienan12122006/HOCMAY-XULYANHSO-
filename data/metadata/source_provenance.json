@@ -1,0 +1,70 @@
+{
+  "dataset_name": "Knee Osteoarthritis Severity Grading Dataset",
+  "source_url": "https://data.mendeley.com/datasets/56rmx5bjcr/1",
+  "doi": "10.17632/56rmx5bjcr.1",
+  "authors": [
+    "Pingjun Chen"
+  ],
+  "institutions": [
+    "University of Florida"
+  ],
+  "version": 1,
+  "publish_date": "2018-09-04T01:04:16.808Z",
+  "description": "This dataset contains knee X-ray data for both knee joint detection and knee KL grading. The dataset is organized from OAI (https://oai.epi-ucsf.org/datarelease/).",
+  "origin_source": "Osteoarthritis Initiative (OAI) - https://oai.epi-ucsf.org/datarelease/",
+  "author_code_repository": "https://github.com/PingjunChen/GradingKneeOA",
+  "reference_paper": "Chen, P., Gao, L., Shi, X., Allen, K., & Yang, L. (2019). Fully automatic knee osteoarthritis severity grading using deep neural networks with a novel ordinal loss. Computerized Medical Imaging and Graphics, 75, 84-92. https://doi.org/10.1016/j.compmedimag.2019.06.002",
+  "license": {
+    "short_name": "CC BY 4.0",
+    "full_name": "Creative Commons Attribution 4.0 International",
+    "url": "http://creativecommons.org/licenses/by/4.0",
+    "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party."
+  },
+  "usage_limitations": [
+    "Published on Mendeley Data under CC BY 4.0 with attribution to Pingjun Chen.",
+    "Images originate from the Osteoarthritis Initiative (OAI); Mendeley's CC BY 4.0 notice explicitly states that further permission may be required for third-party content.",
+    "Raw X-ray images are NOT committed to GitHub to respect repository size limits and third-party medical data redistribution practices.",
+    "auto_test (1,526 YOLO-cropped test images) is excluded from manifest/split because it contains the same test subjects as the official test set."
+  ],
+  "archive": {
+    "filename": "KneeXrayData.zip",
+    "size_bytes": 7171571746,
+    "sha256": "3b4b93b3a3e2e2f059684f5d2b8bbd05aa7776d0199365fc6db51b93dc667505",
+    "download_url": "https://data.mendeley.com/public-files/datasets/56rmx5bjcr/files/205a9a5d-5de5-4f06-8f63-e430ed23ca44/file_downloaded"
+  },
+  "selected_subset": {
+    "path_in_archive": "KneeXrayData/ClsKLData/kneeKL224/",
+    "included_splits": [
+      "train",
+      "val",
+      "test"
+    ],
+    "excluded_splits_in_subset": [
+      "auto_test"
+    ],
+    "selection_rationale": "kneeKL224 is the primary default dataset in Pingjun Chen's official ClsKL training code (train_kl.py) and standard benchmark literature. It contains 8,260 bilateral knee X-ray crops from 4,130 OAI baseline subjects partitioned by patient into train (5,778; 69.95%), val (826; 10.00%), and test (1,656; 20.05%). auto_test (1,526 images) is excluded because it consists of automatically detected crops of the exact same test subjects."
+  },
+  "download_timestamp_utc": "2026-11-26T03:34:16.165829+00:00",
+  "download_timestamp_local": "2026-11-26T10:34:16.165829+07:00",
+  "download_verification": {
+    "download_method": "mendeley_official_http_range_slice",
+    "byte_range_start": 33122432,
+    "byte_range_end": 213071554,
+    "downloaded_slice_bytes": 179949123,
+    "extracted_files": 8260,
+    "crc32_verified_files": 8260,
+    "excluded_archive_buckets": {
+      "KneeXrayData/ClsKLData/kneeKL224/auto_test": 1526,
+      "KneeXrayData/ClsKLData/kneeKL299/auto_test": 1526,
+      "KneeXrayData/ClsKLData/kneeKL299/test": 1656,
+      "KneeXrayData/ClsKLData/kneeKL299/train": 5778,
+      "KneeXrayData/ClsKLData/kneeKL299/val": 826,
+      "KneeXrayData/ClsKLData/models/model_best": 26,
+      "KneeXrayData/DetKneeData/H5/testH5": 828,
+      "KneeXrayData/DetKneeData/H5/trainH5": 2889,
+      "KneeXrayData/DetKneeData/H5/valH5": 413,
+      "KneeXrayData/DetKneeData/best_models/1": 1,
+      "KneeXrayData/DetKneeData/best_models/1wd": 1
+    }
+  }
+}
